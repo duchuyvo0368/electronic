@@ -44,24 +44,37 @@ This project is a full-stack eCommerce website for selling laptops, mobile phone
    ```bash
    git clone https://github.com/yourusername/laptop-mobile-ecommerce.git
    cd laptop-mobile-ecommerce
-├── backend
-│   ├── config
-│   ├── controllers
-│   ├── models
-│   ├── routes
-│   ├── middlewares
-│   └── server.js
-├── frontend
-│   ├── public
-│   ├── src
-│   │   ├── actions
-│   │   ├── components
-│   │   ├── constants
-│   │   ├── reducers
-│   │   ├── screens
-│   │   └── store.js
-└── README.md
-cd frontend
-npm start
-cd backend
-npm run dev
+    git clone https://github.com/yourusername/laptop-mobile-ecommerce.git
+   cd laptop-mobile-ecommerce├── backend
+    │   ├── config
+    │   ├── controllers
+    │   ├── models
+    │   ├── routes
+    │   ├── middlewares
+    │   └── server.js
+    ├── frontend
+    │   ├── public
+    │   ├── src
+    │   │   ├── actions
+    │   │   ├── components
+    │   │   ├── constants
+    │   │   ├── reducers
+    │   │   ├── screens
+    │   │   └── store.js
+    └── README.md
+
+   
+    cd frontend
+    npm start
+    cd backend
+    npm run dev
+   
+
+
+
+
+
+
+
+                       
+
