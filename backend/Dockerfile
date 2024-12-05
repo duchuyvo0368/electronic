@@ -1,17 +1,7 @@
-FROM node:18
-# Sử dụng node image làm base image
-
-# Tạo thư mục làm việc trong container
+FROM node:17
 WORKDIR /backend
-
-
-COPY package.json* ./
-
-RUN npm install -g nodemon && npm install
-
-
-COPY . .
-
+COPY package*.json ./
+RUN npm install
+COPY . . 
 EXPOSE 5000
-
-CMD ["npm", "start"]
+CMD npm start
