@@ -44,6 +44,6 @@ app.use("/api/upload", uploadRouter);
 app.use(notFound);
 app.use(errorHandler);
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT, () => {
   console.log(`Server is running with PORT ${PORT}`);
 });
