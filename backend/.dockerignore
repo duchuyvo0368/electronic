@@ -1,3 +1,8 @@
 
-.ide
+.idea
+.README.md
+
+.prettierignore
+node_modules/
+.next
 .git
