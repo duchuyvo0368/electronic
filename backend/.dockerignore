@@ -1,0 +1,8 @@
+.env
+.idea
+.README.md
+.eslintrc.js
+.prettierignore
+node_modules/
+.next
+.git
