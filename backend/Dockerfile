@@ -1,7 +1,7 @@
-FROM node:17
+FROM node:16
 WORKDIR /backend
 COPY package*.json ./
 RUN npm install
 COPY . . 
 EXPOSE 5000
-CMD npm run start
+CMD npm run dev
