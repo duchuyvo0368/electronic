@@ -1,4 +1,4 @@
-# Laptop and Mobile E-commerce Website
+# E-commerce Website
 
 This project is a full-stack eCommerce website for selling laptops, mobile phones, and headphones. It is developed using **Node.js** (Express, JWT) for the backend and **React.js** for the frontend. The platform supports user authentication, image uploads for products, and secure payment processing.
 
